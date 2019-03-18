@@ -1,0 +1,28 @@
+{
+  "name": "ginol",
+  "version": "0.0.0",
+  "description": "Simple Command line notification for all platform",
+  "main": "ginol.js",
+  "scripts": {
+    "test": "node ginol.js \"Test passed\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeIsabelle/ginol.git"
+  },
+  "keywords": [
+    "gix",
+    "notification",
+    "command-line"
+  ],
+  "author": "Guillaume Isabelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillaumeIsabelle/ginol/issues"
+  },
+  "homepage": "https://github.com/GuillaumeIsabelle/ginol#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0"
+  }
+}
