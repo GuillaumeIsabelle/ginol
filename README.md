@@ -8,3 +8,10 @@ ginol "Completed releasing of the Package"
 "scripts":[
 "release":"npm run publish && ginol \"Completed releasing package\""
 ```
+
+
+```json
+"scripts":[
+"release":"npm version patch && npm run publish && ginol \"Completed releasing package\" && git push"
+```
+
