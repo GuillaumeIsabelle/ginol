@@ -1,13 +1,13 @@
 {
   "name": "ginol",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple Command line notification for all platform",
   "main": "ginol.js",
   "scripts": {
     "test": "node ginol.js \"Test passed\""
   },
-  "bin":{
-  	"ginol":"ginol.js"
+  "bin": {
+    "ginol": "ginol.js"
   },
   "repository": {
     "type": "git",
