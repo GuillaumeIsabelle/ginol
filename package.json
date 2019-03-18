@@ -5,7 +5,7 @@
   "main": "ginol.js",
   "scripts": {
     "test": "node ginol.js \"Test passed\"",
-    "release": "npm version patch && npm run publish && ginol \"Completed released package GINOL done\" && git push"
+    "release": "npm version patch && npm run publish ; ginol \"Completed released package GINOL done\" && git push"
   },
   "bin": {
     "ginol": "ginol.js"
