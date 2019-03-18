@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node ginol.js \"Test passed\""
   },
+  "bin":{
+  	"ginol":"ginol.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GuillaumeIsabelle/ginol.git"
