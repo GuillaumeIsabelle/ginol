@@ -1,6 +1,6 @@
 {
   "name": "ginol",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple Command line notification for all platform",
   "main": "ginol.js",
   "scripts": {
