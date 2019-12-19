@@ -5,6 +5,7 @@
  * Current Reality: Gulp notify mastery
  */
 
+ var defaultTimeOut = 7;
 
 // var gulp = require("gulp");
 // var	notify = require("gulp-notify");
@@ -63,7 +64,7 @@ notifier.notify({
   title: title,
   message:msg,
   closeLabel: "Ok",
-  timeout: 1,
+  timeout: defaultTimeOut,
   wait:false,
   icon: iconpath, // Absolute path (doesn't work on balloons)
 //  icon: icon, // Absolute Path to Triggering Icon

@@ -1,3 +1,6 @@
+# 19-12-18 : 0.0.11
+* cdefaultTimeOut
+
 # 19-12-18 : 0.0.10
 * cleanup unused dependencies (now not using gulp)
 
