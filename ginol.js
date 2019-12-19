@@ -5,7 +5,7 @@
  * Current Reality: Gulp notify mastery
  */
 
-var defaultTimeOut = 7;
+var defaultTimeOut = 6;
 
 // var gulp = require("gulp");
 // var	notify = require("gulp-notify");
@@ -57,7 +57,7 @@ function notifyFunc(done) {
   //   );
 
   var iconpath = path.join(__dirname, icon);
-  console.log(iconpath);
+  
   // Object
   notifier.notify({
     title: title,
@@ -72,7 +72,7 @@ function notifyFunc(done) {
 
 // run our custom build
 notifyFunc(function () {
-  console.log(msg + '\nDone!');
+  console.log(title + "\n" + msg );
 });
 
 
