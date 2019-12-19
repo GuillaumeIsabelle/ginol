@@ -1,6 +1,6 @@
 {
   "name": "ginol",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Simple Command line notification for all platform desktop or cli notifier",
   "main": "ginol.js",
   "scripts": {
@@ -17,7 +17,8 @@
   "keywords": [
     "gix",
     "notification",
-    "command-line"
+    "command-line",
+    "cli"
   ],
   "author": "Guillaume Isabelle",
   "license": "ISC",
@@ -26,8 +27,6 @@
   },
   "homepage": "https://github.com/GuillaumeIsabelle/ginol#readme",
   "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-notify": "^3.2.0",
     "node-notifier": "^6.0.0"
   }
 }
