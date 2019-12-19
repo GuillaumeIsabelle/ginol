@@ -1,7 +1,7 @@
 {
   "name": "ginol",
-  "version": "0.0.7",
-  "description": "Simple Command line notification for all platform",
+  "version": "0.0.8",
+  "description": "Simple Command line notification for all platform desktop or cli notifier",
   "main": "ginol.js",
   "scripts": {
     "test": "node ginol.js \"Test passed\"",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/GuillaumeIsabelle/ginol#readme",
   "dependencies": {
     "gulp": "^4.0.0",
-    "gulp-notify": "^3.2.0"
+    "gulp-notify": "^3.2.0",
+    "node-notifier": "^6.0.0"
   }
 }
