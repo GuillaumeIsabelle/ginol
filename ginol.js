@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/env node 
+
 /** Guillaume Isabelle GINOL
  * Vision: Simple notification are received and a simple command generates them
  
